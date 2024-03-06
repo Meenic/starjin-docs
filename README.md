@@ -75,7 +75,7 @@ This method involves providing various options through text commands. Here's a b
 
 -  **embed_custom_fields:** Comma-separated list of key-value pairs to add custom fields to the giveaway embed message. Each pair should be formatted as "key:value". To add multiple pairs, simply add a comma between each pair like this: "key:value,key1:value1". This allows you to provide additional information about the giveaway beyond the prize and duration.
 
-   -  **Example:** `"Sponsored By:Acme Inc.", "Website:https://www.example.com"` (specifies a sponsor and website link) (only premium users can use links)
+   -  **Example:** `"Sponsored By:Acme Inc.", "Website:https://www.example.com"` (specifies a sponsor and website link) (only premium users can inlcude links)
 
 -  **embed_footer:** Text displayed at the bottom of the giveaway embed message. Use this to add a short message or disclaimer.
 
