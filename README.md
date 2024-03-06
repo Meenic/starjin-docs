@@ -1,100 +1,79 @@
-# Starjin
+## Starjin: Discord Giveaway Management Bot
 
-Starjin allows you to easily create and manage giveaways in your Discord server.
+**Starjin** is a Discord bot that simplifies creating, managing, and running giveaways in your server. It offers features that allow you to customize giveaways and enhance the user experience.
 
-## Features
+### Features
 
--  Create giveaways with various options like prize, duration, winner count, entry methods and much more.
--  Use text commands or a future interactive interface to create giveaways.
--  Customize giveaway messages with various customizations.
+* **Create giveaways** with various options like:
+    * Prize description
+    * Duration
+    * Winner count
+    * Entry methods (text commands, interactive interface)
+    * Customizable messages
+* **Multiple entry methods:**
+    * Text commands (`/giveaway`)
+    * Interactive interface (coming soon)
+* **Customization options:**
+    * Reaction emoji for entry
+    * Entry button text and emoji
+    * Required and excluded roles
+    * Bonus entries for specific roles
+    * Custom embed fields
+    * Embed footer
+    * Private messages to winners
 
-## How to Use
+### How to Use Starjin
 
--  Use the `/giveaway` command to create, edit, or cancel giveaways.
+**Prerequisites:**
 
-## Creating Giveaways
+* A Discord server
+* The Starjin bot added to your server (see **Invite Starjin**: #invite-starjin below)
 
-This section explains how to use the `/giveaway create` command to set up a giveaway in your server.
+**Using Starjin:**
 
-### Subcommands:
+Starjin primarily uses text commands to manage giveaways. You can use the `/giveaway` command followed by subcommands and options to create, edit, or cancel giveaways.
 
--  **create:** This subcommand is used to create a giveaway through text-based options.
--  **create_interactive:** This subcommand will allow creating giveaways through an interactive modal interface.
+### Documentation
 
-### Text-based Giveaway Creation (`/giveaway create`):
+**1. Invite Starjin:**
+
+Before using Starjin, you need to invite the bot to your server. You can do this by clicking the following link:
+
+**Invite Starjin**: https://starjin.xyz/add
+
+**2. Creating Giveaways:**
+
+Use the `/giveaway create` command to start a new giveaway. This subcommand has two options: `create` and `create_interactive`.
+
+**a. Text-based Giveaway Creation (`/giveaway create`):**
 
 This method involves providing various options through text commands. Here's a breakdown of the available options:
 
 **Required Options:**
 
--  **prize:** A clear and concise description of the prize being offered. This will be displayed in the giveaway message and should entice users to participate.
-
-   -  **Example:** "Nitro Classic ($5)"
-
--  **duration:** The amount of time the giveaway will be active before a winner is chosen. Specify the duration value followed by a time unit.
-
-   -  **Example:** "1h", "30m", "2d", "5w", "1y"
-
--  **winner_count:** The number of winners you want to randomly choose from the participants.
-
-   -  **Example:** "1" (one winner), "3" (three winners)
-
--  **channel:** The specific text channel where the giveaway message will be posted. This channel should be accessible to users who want to enter the giveaway.
-
-   -  **Example:** "#giveaways" (assuming you have a channel named giveaways)
+| Option        | Description                                                  | Example               |
+|----------------|------------------------------------------------------------|------------------------|
+| prize          | A clear and concise description of the prize being offered.   | "Nitro Classic ($5)"    |
+| duration       | The amount of time the giveaway will be active before a winner is chosen. | "1h", "30m", "2d", "5w", "1y" |
+| winner_count   | The number of winners you want to randomly choose from the participants. | "1" (one winner), "3" (three winners) |
+| channel       | The specific text channel where the giveaway message will be posted. | "#giveaways"          |
 
 **Optional Options:**
 
--  **reaction_emoji:** The emoji users must react with to enter the giveaway. It's recommended to use an emoji relevant to the prize or giveaway theme.
+See the full list of optional options and their descriptions in the original README file.
 
-   -  **Example:** "🎉" (party popper), "<:giveaway:123456789012345678>" (custom emoji)
+**b. Interactive Giveaway Creation (Coming Soon):**
 
--  **button_label:** The text displayed on the button users click to enter the giveaway. Keep it clear and concise.
+This method will allow users to create giveaways through an interactive interface within Discord. This feature is currently under development and will be available in the future.
 
-   -  **Example:** "Enter Giveaway", "Participate"
+**3. Additional Information:**
 
--  **button_emoji:** The emoji displayed on the entry button (optional).
+* Starjin is under active development, with more features planned for the future.
+* For any bugs or suggestions, feel free to create an issue: [https://github.com/Meenic/starjin/issues](https://github.com/Meenic/starjin/issues) on the Starjin GitHub repository.
+* Join the Starjin Support Server (link below) for assistance and discussions related to the bot.
 
-   -  **Example:** "🥳" (partying face), "<:gift:123456789012345678>" (custom emoji)
+**4. Join the Starjin Support Server:**
 
--  **required_roles:** Comma-separated list of role IDs that users must have to enter the giveaway. This can be used to restrict participation to specific groups within your server.
+For further assistance, community discussions, and updates, join the Starjin Support Server:
 
-   -  **Example:** "123456,789012"
-
--  **excluded_roles:** Comma-separated list of role IDs that exclude users from entering the giveaway. This can be helpful if you want to prevent certain groups from participating.
-
-   -  **Example:** "123456,789012"
-
--  **bonus_entries:** The maximum number of additional entries a user can get beyond the default one. This can be used to reward users for specific actions, like having certain roles or inviting friends. Requires `bonus_roles` to be set.
-
-   -  **Example:** "5" (users can get up to maximum of 5 bonus entries)
-
--  **bonus_roles:** Comma-separated list of role IDs with the corresponding number of bonus entries assigned to each role. Requires `bonus_entries` to be set.
-
-   -  **Example:** "roleID1:3,roleID2:2" (users with roleID1 get 3 bonus entries, roleID2 gets 2)
-
--  **embed_custom_fields:** Comma-separated list of key-value pairs to add custom fields to the giveaway embed message. Each pair should be formatted as "key:value". To add multiple pairs, simply add a comma between each pair like this: "key:value,key1:value1". This allows you to provide additional information about the giveaway beyond the prize and duration.
-
-   -  **Example:** `"Sponsored By:Acme Inc.", "Website:https://www.example.com"` (specifies a sponsor and website link) (only premium users can inlcude links)
-
--  **embed_footer:** Text displayed at the bottom of the giveaway embed message. Use this to add a short message or disclaimer.
-
-   -  **Example:** "Good luck everyone!", "This giveaway is not sponsored by Discord."
-
--  **private_message_on_win:** Whether to send the winners a private message after they are chosen. This can be useful to congratulate them and provide instructions on how to claim their prize.
-
-   -  **Example:** "true" (send private messages), "false" (don't send messages)
-
--  **show_options:** Whether to show details about the giveaway options (requirements, excluded roles, bonus roles, etc.) in the giveaway message.
-
-   -  **Example:** "false" (hide options), "true" (show options) (defaults to true)
-
-**Remember:**
-
--  Replace the placeholders in the examples with your specific information.
--  Double-check the role IDs and emoji codes for accuracy to avoid errors.
-
-## Additional Information
-
--  This bot is under active development. More features and functionalities may be added in the future.
--  For any bugs or suggestions, feel free to [create an issue](https://github.com/Meenic/starjin/issues).
+**Join Starjin Support Server**: https://discord.gg/example
