@@ -1,4 +1,4 @@
-## Starjin: Discord Giveaway Management Bot
+## Starjin: Discord Giveaway Bot
 
 **Starjin** is a Discord bot that simplifies creating, managing, and running giveaways in your server. It offers features that allow you to customize giveaways and enhance the user experience.
 
