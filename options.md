@@ -15,9 +15,9 @@ This file lists all options available for creating and customizing giveaways usi
 
 | Option        | Description                                                  | Example                                 |
 |----------------|------------------------------------------------------------|------------------------------------------|
-| reaction_emoji | The emoji users must react with to enter the giveaway.          | "", "<:giveaway:123456789012345678>"    |
+| reaction_emoji | The emoji users must react with to enter the giveaway.          | "🎉", "<:giveaway:123456789012345678>"    |
 | button_label   | The text displayed on the button users click to enter the giveaway. | "Enter Giveaway", "Participate"          |
-| button_emoji   | The emoji displayed on the entry button (optional).             | "", "<:gift:123456789012345678>"        |
+| button_emoji   | The emoji displayed on the entry button (optional).             | "🥳", "<:gift:123456789012345678>"        |
 | required_roles | Comma-separated list of role IDs that users must have to enter the giveaway. | "123456,789012"                         |
 | excluded_roles | Comma-separated list of role IDs that exclude users from entering the giveaway. | "123456,789012"                         |
 | bonus_entries  | The maximum number of additional entries a user can get beyond the default one. | "5"                                    |
