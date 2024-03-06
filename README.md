@@ -54,7 +54,7 @@ This method involves providing various options through text commands. Here's a b
 
 **Optional Options:**
 
-See the full list of optional options and their descriptions in the original README file.
+For a comprehensive list of optional options and their descriptions, please refer to the dedicated options file: Starjin Giveaway Options: ./options.md.
 
 **b. Interactive Giveaway Creation (Coming Soon):**
 
