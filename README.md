@@ -8,7 +8,6 @@
     * Prize description
     * Duration
     * Winner count
-    * Entry methods (text commands, interactive interface)
     * Customizable messages
 * **Customization options:**
     * Reaction emoji for entry
