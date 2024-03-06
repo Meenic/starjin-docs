@@ -22,7 +22,7 @@ This file lists all options available for creating and customizing giveaways usi
 | excluded_roles | Comma-separated list of role IDs that exclude users from entering the giveaway. | "123456,789012"                         |
 | bonus_entries  | The maximum number of additional entries a user can get beyond the default one. | "5"                                    |
 | bonus_roles    | Comma-separated list of role IDs with the corresponding number of bonus entries assigned to each role. | "roleID1:3,roleID2:2"                     |
-| embed_custom_fields | Comma-separated list of key-value pairs to add custom fields to the giveaway embed message. | "Sponsored By:Acme Inc., Website:[https://www.example.com](https://www.example.com)" (premium only) |
+| embed_custom_fields | Comma-separated list of key-value pairs to add custom fields to the giveaway embed message. | "Sponsored By:Acme Inc., Website:[https://www.example.com](https://www.example.com)" (including links is premium only) |
 | embed_footer   | Text displayed at the bottom of the giveaway embed message.        | "Good luck everyone!", "This giveaway is not sponsored by Discord." |
 | private_message_on_win | Whether to send the winners a private message after they are chosen. | "true" (send messages), "false" (don't send messages) |
 | show_options    | Whether to show details about the giveaway options (requirements, excluded roles, bonus roles, etc.) in the giveaway message. | "false" (hide options), "true" (show options) |
