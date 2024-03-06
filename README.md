@@ -10,9 +10,6 @@
     * Winner count
     * Entry methods (text commands, interactive interface)
     * Customizable messages
-* **Multiple entry methods:**
-    * Text commands (`/giveaway`)
-    * Interactive interface (coming soon)
 * **Customization options:**
     * Reaction emoji for entry
     * Entry button text and emoji
