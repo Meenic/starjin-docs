@@ -33,13 +33,11 @@ Starjin primarily uses text commands to manage giveaways. You can use the `/give
 
 **1. Invite Starjin:**
 
-Before using Starjin, you need to invite the bot to your server. You can do this by clicking the following link:
-
-**Invite Starjin**: https://starjin.xyz/add
+Before using Starjin, you need to invite the bot to your server. You can do this by [clicking here](https://starjin.xyz/add):
 
 **2. Creating Giveaways:**
 
-Use the `/giveaway create` command to start a new giveaway. This subcommand has two options: `create` and `create_interactive`.
+Use the `/giveaway` command to start a new giveaway. This command has two subcommands: `create` and `create_interactive`.
 
 **a. Text-based Giveaway Creation (`/giveaway create`):**
 
