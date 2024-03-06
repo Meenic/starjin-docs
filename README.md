@@ -54,7 +54,7 @@ This method involves providing various options through text commands. Here's a b
 
 **Optional Options:**
 
-For a comprehensive list of optional options and their descriptions, please refer to the dedicated options file: [options.md](https://github.com/Meenic/starjin-docs/blob/main/options.md).
+Please refer to the dedicated options file: [options.md](https://github.com/Meenic/starjin-docs/blob/main/options.md)
 
 **b. Interactive Giveaway Creation (Coming Soon):**
 
