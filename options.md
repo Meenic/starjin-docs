@@ -8,7 +8,7 @@ This file lists all options available for creating and customizing giveaways usi
 |----------------|------------------------------------------------------------|------------------------|
 | prize          | A clear and concise description of the prize being offered.   | `Nitro Classic ($5)`    |
 | duration       | The amount of time the giveaway will be active before a winner is chosen. | `1h`, `30m`, `2d`, `5w`, `1y` |
-| winner_count   | The number of winners you want to randomly choose from the participants. | `1` (one winner), `3` (three winners) |
+| winners       | The number of winners you want to randomly choose from the participants. | `1` (one winner), `3` (three winners) |
 | channel       | The specific text channel where the giveaway message will be posted. | `#giveaways`          |
 
 **Optional Options:**
