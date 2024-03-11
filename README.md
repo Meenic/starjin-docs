@@ -70,4 +70,4 @@ This method will allow users to create giveaways through an interactive interfac
 
 For further assistance, community discussions, and updates, join the Starjin Support Server:
 
-**Join Starjin Support Server**: https://discord.gg/bkhQdmdJjf
+**Join Starjin Support Server**: https://discord.gg/nHRdF7FuqA
