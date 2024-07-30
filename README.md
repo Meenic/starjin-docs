@@ -56,9 +56,9 @@ This method involves providing various options through text commands. Here's a b
 
 Please refer to the dedicated options file: [options.md](https://github.com/Meenic/starjin-docs/blob/main/options.md)
 
-**b. Interactive Giveaway Creation (Coming Soon):**
+**b. Interactive Giveaway Creation (`/giveaway interactive`):**
 
-This method will allow users to create giveaways through an interactive interface within Discord. This feature is currently under development and will be available in the future.
+This method allows users to create giveaways through an interactive interface within Discord.
 
 **3. Additional Information:**
 
